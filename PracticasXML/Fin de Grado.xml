@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<grado>
+    <datos>
+        <ciclo>DAM</ciclo>
+        <curso>Segundo</curso>
+        <nombre>Gerardo</nombre>
+        <apellidos>Marin</apellidos>
+    </datos>
+    <proyecto>
+        <titulo>FacePi</titulo>
+        <Introduccion>dadwadafawfa</Introduccion>
+        <Finalidad></Finalidad>
+        <Objetivos>
+            <objetivo>objetivo 1</objetivo>
+            <objetivo>objetivo 2</objetivo>
+            <objetivo>objetivo 3</objetivo>
+            <objetivo>objetivo 4</objetivo>
+            <objetivo>objetivo 5</objetivo>
+        </Objetivos>
+        <medios>
+            <medio></medio>
+            <medio></medio>
+            <medio></medio>
+        </medios>
+        <planificacion>dawdafawffw</planificacion>
+        <bibliografia></bibliografia>
+    </proyecto>
+</grado>
+
