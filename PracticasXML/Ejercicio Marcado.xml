@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<factura numero="999">
+    <empresa nombre="Equipos Digitales S.L">
+        <direccion>Av.Valladolid</direccion>
+        <ciudad>Madrid</ciudad>
+        <cp>28015</cp>
+        <c.i.f>Q-9876543</c.i.f>
+        <telefono>91.777.66.99</telefono>
+        
+    </empresa>
+    <cliente>
+        <Nombre>Dario bueno Gutierrez</Nombre>
+        <direccion_envio>Av.Oporto nº7 4ºd</direccion_envio>
+        <Poblacion>Madrid</Poblacion>
+        <cp>28043</cp>
+        <provincia>Madrid</provincia>
+    </cliente>
+    <articulos>
+        <articulo ref="" cantidad="1" precio="" iva="" >Micro pentium iv</articulo>
+        
+    </articulos>
+    
+</factura>
+
