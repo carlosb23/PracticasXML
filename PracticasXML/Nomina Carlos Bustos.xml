@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<!--No se me aporta la informacion de donde es la nomina pero lo aporto-->
+<nomina moneda="€" pais="España">
+    <empresa C.I.F="">
+        <domicilio></domicilio>
+        <codigo></codigo>
+    </empresa>
+    <Trabajador N.I.F="">
+        <persona>Luis Gutierrez Alonso</persona>
+        <categoria_pro>Ingeniero</categoria_pro>
+        <grupo>1</grupo>
+        <antiguedad></antiguedad>
+        <afiliacion></afiliacion>
+    </Trabajador>
+    <liquidacion Totaldias="30">
+        <fechadeinicio>1 de Marzo de 2011</fechadeinicio>
+        <fechafin>31 de Marzo de 2011</fechafin>
+    </liquidacion>
+    <devengos>
+        <percepcion_salariales>
+            <salariobase>1500</salariobase>
+            <compl_salariales>
+                <Incentivos>192</Incentivos>
+            </compl_salariales>
+            <horasextra fraccion="Estructurales:60 + F.mayor:100">160</horasextra>
+            <Gratificaciones></Gratificaciones>
+            <salarioespecie></salarioespecie>
+        </percepcion_salariales>
+        <!--aqui las percepciones no salariales no tienen dato pero son
+            importantes de poner-->
+        <percepcion_nosalarial>
+            <indemnizacion></indemnizacion>
+            <cargo_empresa></cargo_empresa>
+            <Otras_percepciones></Otras_percepciones>
+        </percepcion_nosalarial>
+        <total_devengado>1852</total_devengado>
+    </devengos>
+    <deducciones>
+        <seguridad_social>
+            <conceptos>
+                <contingencia-comunes base="1942,00" porcentaje="4,70%">91,27</contingencia-comunes>
+                <desempleo base="2102,00" porcentaje="1,55%">32,58</desempleo>
+                <form-profesional base="2102,00" porcentaje="0,10%">2,10</form-profesional>
+                <horas_extras>
+                    <fuerza_mayor base="100" porcentaje="2,00%">2,00</fuerza_mayor>
+                    <otras_horas base="60" porcentaje="4,70%">2,82</otras_horas>
+                </horas_extras>
+            </conceptos>
+            <total_aportaciones>130,77</total_aportaciones> 
+        </seguridad_social>
+        <IRPF base="1852" porcentaje="13,0%">240,76</IRPF>
+        <anticipos></anticipos>
+        <productos_especie></productos_especie>
+        <total_deducir>371,53</total_deducir>
+        <total_liquido>1480,47</total_liquido>
+    </deducciones>
+    <DBCSS>
+        <BCCC>
+            <incapa_temp></incapa_temp>
+            <remuneracion_mens>1698</remuneracion_mens>
+            <prorrata_pagas>250</prorrata_pagas>
+            <total>1942,00</total>
+        </BCCC>
+        <BCCP>
+            <salario>2102,00</salario>
+            <I.T></I.T>
+        </BCCP>
+        <BCHE>160</BCHE>
+        <Base_IRPF>1852</Base_IRPF>
+    </DBCSS>
+</nomina>
+
