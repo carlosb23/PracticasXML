@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE html [
+<!ELEMENT html (head, body)>
+<!--Titulo-->
+<!ELEMENT head (title)>
+<!ELEMENT title (#PCDATA)>
+<!--Body, uso de asterisco en general para poder escribir mas de una vez
+la misma etiqueta-->
+<!ELEMENT body (h1|p|hr|h2|br|h3|ul|ol|h4)*>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT p (a, img, strong)>
+<!ELEMENT strong (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA #REQUIRED >
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED >
+<!ATTLIST img width CDATA #IMPLIED >
+<!ATTLIST img height CDATA #IMPLIED >
+<!ELEMENT hr EMPTY>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT br EMPTY>
+<!ELEMENT h3 (#PCDATA)>
+<!ELEMENT h4 (#PCDATA)>
+<!--Pongo * para decir que hay minimo una y se pueden repetir-->
+<!ELEMENT ul (li*)>
+<!ELEMENT ol (li*)>
+<!ELEMENT li (#PCDATA)>
+]>
+
+
+<html>
+    <head>
+        <title>Trabajo DTD cabecera</title>
+    </head>
+    <body>
+        <h1>Titulo grande trabajo</h1>
+        <p>
+            <a href="#">enlace de la foto</a>
+            <img width="100" height="80" src="#"/>
+            <strong>Lo que escriba aqui se va a ver en negrita</strong>
+        </p>
+        <hr/>
+        <h2>Otro titulo</h2>
+        <br/>
+        <h3>Listas Ciudades y Paises</h3>
+        <p>
+            <a href="#">enlace de la foto</a>
+            <img width="70" height="50" src="#"/>
+            <strong>Lo que escriba aqui se va a ver en negrita</strong>
+        </p>
+        <ul>
+            <li>Madrid</li>
+            <li>Manchester</li>
+        </ul>
+        <ol>
+            <li>España</li>
+            <li>Inglaterra</li>
+        </ol>
+        <h4>Fin ejercicio</h4>
+    </body>
+</html>
+
